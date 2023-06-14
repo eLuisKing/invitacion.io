@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Arimo:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../public/css/tailwind.css">
+    <title>Document</title>
+</head>
+<body class="font-arimo">
+    <div class="w-full h-40 bg-blue-950 flex flex-col items-center ">
+        <img class="w-60" src="https://firebasestorage.googleapis.com/v0/b/img-invitacion.appspot.com/o/buho.png?alt=media&token=b65f9894-2d12-4823-b5b7-2c003e0c4d5a&_gl=1*1brpdkz*_ga*MzYxMDYxOTcyLjE2Nzk3MDcwMTM.*_ga_CW55HF8NVT*MTY4NjAyNTczNy40LjEuMTY4NjAyNTc3NS4wLjAuMA.." alt="Buho Graduacion">
+        <h2 class="font-semibold text-2xl">Nuestra Graduacion</h2>
+        <p class="">Generacion 2020-2023</p>
+    </div>
+
+    
+
+    <div class="w-full h-auto">
+        <div class="w-full h-36 mt-40 flex justify-center gap-5">
+            <div class="flex flex-col items-center justify-center h-28">
+                <p class="text-xl">Sabado</p>
+            </div>
+            <div class="flex flex-col items-center justify-center h-28 p-5 border-l-2 border-r-2">
+                <p class="text-xl">Julio</p>
+                <p class="text-3xl">21</p>
+            </div>
+            <div class="flex flex-col items-center justify-center h-28">
+                <p class="text-xl">12:30 PM</p>
+            </div>
+        </div>
+        <div class="flex flex-col items-center gap-4 justify-center">
+            <p class="text-lg">Preescolar Niños Heroes El Cerrito</p>
+            <button id="btn-ubi" class="bg-blue-950 p-2 rounded-xl text-white hover:bg-white hover:text-black">Ver Ubicacion</button>
+            <div class="hidden" id="map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d934.4172474708298!2d-99.89497173037705!3d20.478784255164324!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMjDCsDI4JzQzLjYiTiA5OcKwNTMnMzkuNiJX!5e0!3m2!1ses!2smx!4v1685684380636!5m2!1ses!2smx" width="350" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+    </div>
+
+    <div class="w-full h-auto mt-10 flex flex-col bg-blue-950 pb-3">
+        <div class="flex items-center flex-col">
+            <p class="text-xl m-3 text-white">Nuestros Graduados</p>
+            <div class="flex flex-col items-center gap-3">
+                <img class="w-36 h-36 rounded-full border-yellow-600 border-4 object-cover" src="https://firebasestorage.googleapis.com/v0/b/img-invitacion.appspot.com/o/mtra-sofia.jpg?alt=media&token=3b69b4a8-69ab-4478-a55f-6c6d59b4d887&_gl=1*1qzuovb*_ga*MzYxMDYxOTcyLjE2Nzk3MDcwMTM.*_ga_CW55HF8NVT*MTY4NTczMTY2MC4yLjEuMTY4NTczMjA1MC4wLjAuMA.." alt="Maestra Sofia Gudino">
+                <p class="text-sm text-white">Mtra. Sofia Gudiño Valencia</p>
+            </div>
+
+            <div class="grid m-3 mb-14 mt grid-cols-2 gap-4 sm:grid-cols-3 lg:grid-cols-5">
+                <div class="flex flex-col gap-2 items-center">
+                    <img class="rounded-full w-36 h-36 border-yellow-600 border-4 object-cover" src="https://firebasestorage.googleapis.com/v0/b/img-invitacion.appspot.com/o/31.jpeg?alt=media&token=bccc006a-d698-4fc2-aac0-62c5f70fb45b&_gl=1*1ivyywc*_ga*MzYxMDYxOTcyLjE2Nzk3MDcwMTM.*_ga_CW55HF8NVT*MTY4NjAyNTczNy40LjEuMTY4NjAyODQ4Mi4wLjAuMA.." alt="">
+                    <p class="text-sm text-white text-center">Samantha Santiago Nieto</p>
+                </div>
+                
+                <div class="flex flex-col gap-2 items-center">
+                    <img class="rounded-full w-36 h-36 border-yellow-600 border-4 object-cover" src="https://firebasestorage.googleapis.com/v0/b/img-invitacion.appspot.com/o/32.jpeg?alt=media&token=2ebf3269-c5ca-4046-bd86-a6da254a59f6&_gl=1*16iuvn7*_ga*MzYxMDYxOTcyLjE2Nzk3MDcwMTM.*_ga_CW55HF8NVT*MTY4NjAyNTczNy40LjEuMTY4NjAyODcwMS4wLjAuMA.." alt="">
+                    <p class="text-sm text-white text-center">Marisol Hernandez Mendato</p>
+                </div>
+
+                <div class="flex flex-col gap-2 items-center">
+                    <img class="rounded-full w-36 h-36 border-yellow-600 border-4 object-cover" src="https://firebasestorage.googleapis.com/v0/b/img-invitacion.appspot.com/o/33.jpeg?alt=media&token=199d0a9b-639a-473a-a6b1-ff707486d8de&_gl=1*g2h20y*_ga*MzYxMDYxOTcyLjE2Nzk3MDcwMTM.*_ga_CW55HF8NVT*MTY4NjAyNTczNy40LjEuMTY4NjAyODc2My4wLjAuMA.." alt="">
+                    <p class="text-sm text-white text-center">Ariana Romero Mentado</p>
+                </div>
+
+                <div class="flex flex-col gap-2 items-center">
+                    <img class="rounded-full w-36 h-36 border-yellow-600 border-4 object-cover" src="https://firebasestorage.googleapis.com/v0/b/img-invitacion.appspot.com/o/34.jpeg?alt=media&token=ddd90018-b9ad-441c-abd1-b57bb780f9eb&_gl=1*1wpar5n*_ga*MzYxMDYxOTcyLjE2Nzk3MDcwMTM.*_ga_CW55HF8NVT*MTY4NjAyNTczNy40LjEuMTY4NjAyODgzMi4wLjAuMA.." alt="">
+                    <p class="text-sm text-white text-center">Solange Hernandez Romero</p>
+                </div>
+
+                <div class="flex flex-col gap-2 items-center">
+                    <img class="rounded-full w-36 h-36 border-yellow-600 border-4 object-cover" src="https://firebasestorage.googleapis.com/v0/b/img-invitacion.appspot.com/o/311.jpeg?alt=media&token=0c94d814-2575-4e9e-9391-a08eb5d275aa&_gl=1*knuxcc*_ga*MzYxMDYxOTcyLjE2Nzk3MDcwMTM.*_ga_CW55HF8NVT*MTY4NjI4MTEwNi41LjEuMTY4NjI4MTE4Ny4wLjAuMA.." alt="">
+                    <p class="text-sm text-white text-center">Jose Angel Juarez Hernandez</p>
+                </div>
+
+                <div class="flex flex-col gap-2 items-center">
+                    <img class="rounded-full w-36 h-36 border-yellow-600 border-4 object-cover" src="https://firebasestorage.googleapis.com/v0/b/img-invitacion.appspot.com/o/37.jpeg?alt=media&token=99af6dd3-3155-48f7-8f3e-aff030c39d7a&_gl=1*tb273h*_ga*MzYxMDYxOTcyLjE2Nzk3MDcwMTM.*_ga_CW55HF8NVT*MTY4NjAyNTczNy40LjEuMTY4NjAyODk1OS4wLjAuMA.." alt="">
+                    <p class="text-sm text-white text-center">Emily Guadalupe Juartez Resendiz</p>
+                </div>
+                <div class="flex flex-col gap-2 items-center">
+                    <img class="rounded-full w-36 h-36 border-yellow-600 border-4 object-cover" src="https://firebasestorage.googleapis.com/v0/b/img-invitacion.appspot.com/o/38.jpeg?alt=media&token=e31e032a-112a-4197-9df6-66413c9c18b7&_gl=1*ugj2t8*_ga*MzYxMDYxOTcyLjE2Nzk3MDcwMTM.*_ga_CW55HF8NVT*MTY4NjAyNTczNy40LjEuMTY4NjAyODk3OS4wLjAuMA.." alt="">
+                    <p class="text-sm text-white text-center">Lyla Mentado Alonso</p>
+                </div>
+
+                <div class="flex flex-col gap-2 items-center">
+                    <img class="rounded-full w-36 h-36 border-yellow-600 border-4 object-cover" src="https://firebasestorage.googleapis.com/v0/b/img-invitacion.appspot.com/o/39.jpeg?alt=media&token=32156eaf-489a-40eb-b73c-1979c723dbdd&_gl=1*1e1b0tt*_ga*MzYxMDYxOTcyLjE2Nzk3MDcwMTM.*_ga_CW55HF8NVT*MTY4NjAyNTczNy40LjEuMTY4NjAyOTAwNy4wLjAuMA.." alt="">
+                    <p class="text-sm text-white text-center">Carim Juarez Rangel</p>
+                </div>
+                <div class="flex flex-col gap-2 items-center">
+                    <img class="rounded-full w-36 h-36 border-yellow-600 border-4 object-cover" src="https://firebasestorage.googleapis.com/v0/b/img-invitacion.appspot.com/o/310.jpeg?alt=media&token=84fca094-ef23-407b-bf36-ac74fb32e759&_gl=1*pyjb5w*_ga*MzYxMDYxOTcyLjE2Nzk3MDcwMTM.*_ga_CW55HF8NVT*MTY4NjAyNTczNy40LjEuMTY4NjAyOTAzNi4wLjAuMA.." alt="">
+                    <p class="text-sm text-white text-center">Leonardo Sarabia Perez</p>
+                </div>
+
+                <div class="flex flex-col gap-2 items-center">
+                    <img class="rounded-full w-36 h-36 border-yellow-600 border-4 object-cover" src="https://firebasestorage.googleapis.com/v0/b/img-invitacion.appspot.com/o/312.jpeg?alt=media&token=b568322f-1437-4c71-8025-2c07dda09131&_gl=1*nf3gj7*_ga*MzYxMDYxOTcyLjE2Nzk3MDcwMTM.*_ga_CW55HF8NVT*MTY4NjI4MzU1NC42LjEuMTY4NjI4MzU2OC4wLjAuMA.." alt="">
+                    <p class="text-sm text-white text-center">Rosario Cruz Mentado</p>
+                </div>
+                
+                <div class="flex flex-col gap-2 items-center">
+                    <img class="rounded-full w-36 h-36 border-yellow-600 border-4 object-cover" src="https://firebasestorage.googleapis.com/v0/b/img-invitacion.appspot.com/o/313.jpeg?alt=media&token=e5ea4239-c18e-4da9-8e0e-c7214a3be6ea&_gl=1*1d8p0fw*_ga*MzYxMDYxOTcyLjE2Nzk3MDcwMTM.*_ga_CW55HF8NVT*MTY4NjI4MzU1NC42LjEuMTY4NjI4NDY0Mi4wLjAuMA.." alt="">
+                    <p class="text-sm text-white text-center">Maria Yamilet Ordaz Solis</p>
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+
+    <div class="w-full h-auto mt-7 mb-14 flex flex-col">
+        <div class="flex items-center flex-col">
+            <p class="text-xl m-3">Alumnos Segundo Grado</p>
+            <div class="flex flex-col items-center gap-3">
+                <img class="w-36 h-36 rounded-full border-yellow-600 border-4 object-cover " src="https://firebasestorage.googleapis.com/v0/b/img-invitacion.appspot.com/o/mtra-2.jpeg?alt=media&token=7123fc05-8e4a-4c4d-a501-36b6f5a408e7&_gl=1*12kw16n*_ga*MzYxMDYxOTcyLjE2Nzk3MDcwMTM.*_ga_CW55HF8NVT*MTY4NjAyNTczNy40LjEuMTY4NjAyODIxNi4wLjAuMA.." alt="Maestra ">
+                <p class="text-sm">Mtra. Yanelli Cruz Ramirez</p>
+            </div>
+            <div class="grid m-3 grid-cols-2 gap-4 sm:grid-cols-3 lg:grid-cols-5">
+                <div class="flex flex-col gap-2 items-center">
+                    <img class="rounded-full w-36 h-36 border-yellow-600 border-4 object-cover" src="https://firebasestorage.googleapis.com/v0/b/img-invitacion.appspot.com/o/21.jpeg?alt=media&token=f8aa10c2-547e-4845-bf69-e539bf6d7823&_gl=1*a1f6zg*_ga*MzYxMDYxOTcyLjE2Nzk3MDcwMTM.*_ga_CW55HF8NVT*MTY4NjAyNTczNy40LjEuMTY4NjAyOTE0NC4wLjAuMA.." alt="">
+                    <p class="text-sm text-center">Joel Romero Barron</p>
+                </div>
+                
+                <div class="flex flex-col gap-2 items-center">
+                    <img class="rounded-full w-36 h-36 border-yellow-600 border-4 object-cover" src="https://firebasestorage.googleapis.com/v0/b/img-invitacion.appspot.com/o/22.jpeg?alt=media&token=80b26a51-092f-48a0-987c-e5d608a4da0d&_gl=1*1sfr5mh*_ga*MzYxMDYxOTcyLjE2Nzk3MDcwMTM.*_ga_CW55HF8NVT*MTY4NjAyNTczNy40LjEuMTY4NjAyOTE2NC4wLjAuMA.." alt="">
+                    <p class="text-sm text-center">Daisy Hernandez Santos</p>
+                </div>
+
+                <div class="flex flex-col gap-2 items-center">
+                    <img class="rounded-full w-36 h-36 border-yellow-600 border-4 object-cover" src="https://firebasestorage.googleapis.com/v0/b/img-invitacion.appspot.com/o/23.jpeg?alt=media&token=04a7daf8-bd90-4938-a560-c1377a8228b1&_gl=1*vkgv7z*_ga*MzYxMDYxOTcyLjE2Nzk3MDcwMTM.*_ga_CW55HF8NVT*MTY4NjAyNTczNy40LjEuMTY4NjAyOTIwMi4wLjAuMA.." alt="">
+                    <p class="text-sm text-center">Dayra Resendiz Paulin</p>
+                </div>
+
+                <div class="flex flex-col gap-2 items-center">
+                    <img class="rounded-full w-36 h-36 border-yellow-600 border-4 object-cover" src="https://firebasestorage.googleapis.com/v0/b/img-invitacion.appspot.com/o/24.jpeg?alt=media&token=97ede13a-7c2e-4af8-93f9-4eb471ab6e49&_gl=1*14f9tr3*_ga*MzYxMDYxOTcyLjE2Nzk3MDcwMTM.*_ga_CW55HF8NVT*MTY4NjAyNTczNy40LjEuMTY4NjAyOTE4MS4wLjAuMA.." alt="">
+                    <p class="text-sm text-center">Aranza Romero Barron</p>
+                </div>
+
+                <div class="flex flex-col gap-2 items-center">
+                    <img class="rounded-full w-36 h-36 border-yellow-600 border-4 object-cover" src="https://firebasestorage.googleapis.com/v0/b/img-invitacion.appspot.com/o/25.jpeg?alt=media&token=15b03e80-26e5-484e-872e-7952b3c3cbaf&_gl=1*3g0u8t*_ga*MzYxMDYxOTcyLjE2Nzk3MDcwMTM.*_ga_CW55HF8NVT*MTY4NjAyNTczNy40LjEuMTY4NjAyOTI0Ny4wLjAuMA.." alt="">
+                    <p class="text-sm text-center">Allison Caballero Hernandez</p>
+                </div>
+
+                <div class="flex flex-col gap-2 items-center">
+                    <img class="rounded-full w-36 h-36 border-yellow-600 border-4 object-cover" src="https://firebasestorage.googleapis.com/v0/b/img-invitacion.appspot.com/o/26.jpeg?alt=media&token=b46f159b-9b8f-48a7-a241-144822753144&_gl=1*16bgt5h*_ga*MzYxMDYxOTcyLjE2Nzk3MDcwMTM.*_ga_CW55HF8NVT*MTY4NjAyNTczNy40LjEuMTY4NjAyOTIyNi4wLjAuMA.." alt="">
+                    <p class="text-sm text-center">Jared Benjamin Hernandez Hernandez</p>
+                </div>
+                <div class="flex flex-col gap-2 items-center">
+                    <img class="rounded-full w-36 h-36 border-yellow-600 border-4 object-cover" src="https://firebasestorage.googleapis.com/v0/b/img-invitacion.appspot.com/o/27.jpeg?alt=media&token=c41e5fb2-6c97-4f7b-903f-1204f1a16141&_gl=1*14ym356*_ga*MzYxMDYxOTcyLjE2Nzk3MDcwMTM.*_ga_CW55HF8NVT*MTY4NjAyNTczNy40LjEuMTY4NjAyOTI2OS4wLjAuMA.." alt="">
+                    <p class="text-sm text-center">Ariadna Christelle Mata Rangel</p>
+                </div>
+
+                <div class="flex flex-col gap-2 items-center">
+                    <img class="rounded-full w-36 h-36 border-yellow-600 border-4 object-cover" src="https://firebasestorage.googleapis.com/v0/b/img-invitacion.appspot.com/o/28.jpeg?alt=media&token=7be1fffc-81bf-4305-ad6a-adaf06da0280&_gl=1*uts96g*_ga*MzYxMDYxOTcyLjE2Nzk3MDcwMTM.*_ga_CW55HF8NVT*MTY4NjAyNTczNy40LjEuMTY4NjAyOTMwNC4wLjAuMA.." alt="">
+                    <p class="text-sm text-center">Cristobal Santiago Nieto</p>
+                </div>
+                <div class="flex flex-col gap-2 items-center">
+                    <img class="rounded-full w-36 h-36 border-yellow-600 border-4 object-cover" src="https://firebasestorage.googleapis.com/v0/b/img-invitacion.appspot.com/o/29.jpeg?alt=media&token=d6313ee2-25bc-4d2c-9e5c-79cb9f5c67ba&_gl=1*1nxubwt*_ga*MzYxMDYxOTcyLjE2Nzk3MDcwMTM.*_ga_CW55HF8NVT*MTY4NjAyNTczNy40LjEuMTY4NjAyOTI4NS4wLjAuMA.." alt="">
+                    <p class="text-sm text-center">Iris Juarez Resendiz</p>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="w-full h-16 bg-blue-950 flex justify-center items-center">
+            <a href="https://www.instagram.com/eluis.king/" target="_blank"><p class="text-white text-sm">Developed by: Luis Santillan</p></a>
+        </div>
+    </footer>
+
+    <script src="../public/app.js"></script>
+</body>
+</html>
