@@ -554,8 +554,8 @@ video {
   display: none;
 }
 
-.h-10 {
-  height: 2.5rem;
+.h-16 {
+  height: 4rem;
 }
 
 .h-28 {
@@ -572,10 +572,6 @@ video {
 
 .h-auto {
   height: auto;
-}
-
-.h-16 {
-  height: 4rem;
 }
 
 .w-36 {
